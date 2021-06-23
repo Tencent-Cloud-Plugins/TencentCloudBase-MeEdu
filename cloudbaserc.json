@@ -11,15 +11,15 @@
           "servicePath": "/",
           "uploadType": "image",
           "imageInfo": {
-            "imageUrl": "ccr.ccs.tencentyun.com/tcb-meedu/meedu-tcb:4.2.4"
+            "imageUrl": "ccr.ccs.tencentyun.com/tcb-meedu/meedu-tcb:4.2.5"
           },
           "containerPort": 80,
           "customLogs": "stdout,/dev/stdout,/dev/stderr",
           "envVariables": {
-            "DB_HOST": "{{env.DB_IP}}",
+            "DB_HOST": "{{env.DB_HOST}}",
             "DB_PORT": "{{env.DB_PORT}}",
-            "DB_USER": "root",
-            "DB_PASS": "{{env.MYSQL_PASSWORD}}",
+            "DB_USER": "{{env.DB_USER}}",
+            "DB_PASS": "{{env.DB_PASS}}",
             "DB_NAME": "meedu",
             "MEEDU_USERNAME": "meedu@meedu.meedu",
             "MEEDU_PASSWORD": "meedu123"
