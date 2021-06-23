@@ -20,7 +20,7 @@
             "DB_PORT": "{{env.DB_PORT}}",
             "DB_USER": "{{env.DB_USER}}",
             "DB_PASS": "{{env.DB_PASS}}",
-            "DB_NAME": "tcb-meedu",
+            "DB_NAME": "meedu",
             "MEEDU_USERNAME": "meedu@meedu.meedu",
             "MEEDU_PASSWORD": "meedu123"
           },
@@ -41,7 +41,7 @@
           "type": "CynosDB",
           "name": "meedu",
           "envMap": {
-            "IP": "DB_IP",
+            "IP": "DB_HOST",
             "PORT": "DB_PORT",
             "USERNAME": "DB_USER",
             "PASSWORD": "DB_PASS"
