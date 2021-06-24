@@ -11,7 +11,7 @@
           "servicePath": "/",
           "uploadType": "image",
           "imageInfo": {
-            "imageUrl": "ccr.ccs.tencentyun.com/tcb-meedu/meedu-tcb:4.3.4"
+            "imageUrl": "ccr.ccs.tencentyun.com/tcb-meedu/meedu-tcb:4.3.5"
           },
           "containerPort": 80,
           "customLogs": "stdout,/dev/stdout,/dev/stderr",
@@ -20,7 +20,7 @@
             "DB_PORT": "{{env.DB_PORT}}",
             "DB_USER": "{{env.DB_USER}}",
             "DB_PASS": "{{env.DB_PASS}}",
-            "DB_NAME": "meedu",
+            "DB_NAME": "tcb_meedu",
             "MEEDU_USERNAME": "meedu@meedu.meedu",
             "MEEDU_PASSWORD": "meedu123"
           },
