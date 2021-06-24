@@ -22,7 +22,8 @@
             "DB_PASS": "{{env.DB_PASS}}",
             "DB_NAME": "tcb_meedu",
             "MEEDU_USERNAME": "meedu@meedu.meedu",
-            "MEEDU_PASSWORD": "meedu123"
+            "MEEDU_PASSWORD": "meedu123",
+            "TCB_NOT_SHOW_CYNOS_DB": "${Outputs.meedu.Properties.InstanceId}"
           },
           "initialDelaySeconds": 10,
           "volumeMounts": {
