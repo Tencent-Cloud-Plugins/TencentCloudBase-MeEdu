@@ -11,7 +11,7 @@
           "servicePath": "/",
           "uploadType": "image",
           "imageInfo": {
-            "imageUrl": "ccr.ccs.tencentyun.com/tcb-meedu/meedu-tcb:4.3.2"
+            "imageUrl": "ccr.ccs.tencentyun.com/tcb-meedu/meedu-tcb:4.3.3"
           },
           "containerPort": 80,
           "customLogs": "stdout,/dev/stdout,/dev/stderr",
